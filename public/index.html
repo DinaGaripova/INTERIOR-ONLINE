@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="shortcut icon" href="icon/icon.png">
+  <title>Интерьер Онлайн</title>
+</head>
+<body>
+  <div class="header">
+    <a class="file-header" href="/index.html">
+      Загрузить план
+    </a>
+    <a class="all-header" href="/historyImages.html">
+      Истории загрузок плана
+    </a>
+  </div>
+  <div id="app">
+    <div id="upload-area">
+      <p>Перетащите файл сюда</p>
+    </div>
+    <img id="room-plan" src="" alt="План помещения">
+
+    <div id="furniture">
+      <div class="furniture-items">
+        <img src="furnitures/sofa.png" alt="Sofa" class="furniture-item sofa">
+        <img src="furnitures/table.png" alt="Table" class="furniture-item table">
+        <img src="furnitures/toilet.png" alt="Toilet" class="furniture-item toilet">
+        <img src="furnitures/washBasin.png" alt="washBasin" class="furniture-item washBasin">
+        <img src="furnitures/TV.png" alt="TV" class="furniture-item TV">
+        <img src="furnitures/shower.png" alt="Shower" class="furniture-item shower">
+        <img src="furnitures/sofa2.png" alt="Sofa2" class="furniture-item sofa">
+        <img src="furnitures/table2.png" alt="Table2" class="furniture-item table">
+        <img src="furnitures/toilet2.png" alt="Toilet2" class="furniture-item toilet">
+        <img src="furnitures/TV2.png" alt="TV2" class="furniture-item TV">
+    </div>    
+    </div>
+  </div>
+  <div class="buttons">
+    <button id="increaseSize" onclick="increase()">+</button>
+    <button id="decreaseSize" onclick="decrease()">-</button>
+  </div>
+  <script src="javascripts/script.js"></script>
+</body>
+</html>

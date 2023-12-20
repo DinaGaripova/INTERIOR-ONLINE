@@ -1,0 +1,91 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+.header{
+  display: flex;
+  height: 65px;
+  justify-content: center;
+  background-color: #ccc;
+  margin-bottom: 10px;
+}
+.file-header{
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border: #000 solid 1px;
+}
+.all-header{
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px;
+  border: #000 solid 1px;
+}
+.all-header:hover, .file-header:hover{
+  border: #000 solid 2px;
+}
+#app{
+  display: grid;
+  grid-template-columns: 800px 50px;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}
+#upload-area {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#room-plan {
+  max-width: 100%;
+  display: none;
+  position: relative;
+  height: 300px;
+}
+.furniture-items{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  cursor: pointer;
+}
+.furniture-item.active {
+  border: 2px dotted #000;
+}
+.furniture-item.nonactive {
+  border: none;
+}
+.furniture-item{
+  height: 50px;
+  width: auto;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+#increaseSize, #decreaseSize{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 20px;
+}
+.images{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap:10px;
+}
+.images > div>img{
+  margin: 10px;
+  height: 100px;
+  width: auto;
+}
