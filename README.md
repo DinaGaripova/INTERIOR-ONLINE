@@ -1,4 +1,4 @@
 For start
 
-
-npm start
+1. npm install express
+2. npm start
